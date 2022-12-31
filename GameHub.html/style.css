@@ -1,0 +1,111 @@
+*{
+    font-family: 'kameron';
+}
+
+ul{
+    list-style:none;
+    text-align: right;
+}
+
+li{
+    display: inline;
+    margin: 50px;
+    text-align: right;
+}
+
+header {
+    background-color: rgb(3, 3, 66);
+    padding: 10px;
+  }
+
+li a{
+    
+    color: white;
+    text-decoration: none;
+}
+img{
+    position:absolute;
+    left:10px;
+    top:13px;
+    margin: 0px 15px 15px 0px;
+}
+
+li a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+.main{
+    padding:250px;
+     background-image:url("../html/bg_image.jpg") ;
+     background-size:1500px 700px ;
+     color: white;
+     text-align: center;
+
+}
+
+.main h1{
+        font-size: 40px;
+      }
+.main h3{
+        font-size: 20px;
+      }
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 10px 50px;
+    border-radius: 10000px;
+    font-weight: bold;
+}
+
+.left{ 
+    width: 50%; 
+    float: left; 
+    
+ } 
+ .right{ 
+    width: 50%; 
+    float: right; 
+    
+ } 
+ .clear-fix{ 
+   clear: both; 
+ } 
+.main1 { 
+    background-color: rgb(3, 3, 66) ;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    height: 230px;
+    
+   
+} 
+
+
+.main2{ 
+    background-color: rgb(3, 3, 66) ;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    height: 200px;
+    
+  
+}
+
+
+
+footer{
+    background-color: rgb(3, 3, 66) ;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    color: white;
+    text-align: center;
+}
